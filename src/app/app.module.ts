@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { AppNavbarComponent } from './app-navbar/app-navbar.component';
 import { HomeViewComponent } from './home-view/home-view.component';
 import { UsersViewComponent } from './users-view/users-view.component';
+import { UserViewComponent } from './user-view/user-view.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -17,7 +18,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
     //route views
     HomeViewComponent,
-    UsersViewComponent
+    UsersViewComponent,
+    UserViewComponent
   ],
   imports: [
     BrowserModule,
